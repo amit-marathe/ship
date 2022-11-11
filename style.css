@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Voyage";
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://wallpapercave.com/wp/wp4047748.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    position: relative;
+    color: #fff;
+}
+
+.navbar .lnav img{
+    height: 40px;    
+}
+
+.navbar .links{
+    display: flex;
+    gap: 60px;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.rnav h3{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.rnav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rnav .pen{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pen i{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.line{
+    height: 2px;
+    width: calc(100% - 120px);
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.center{
+    height: 70%;
+    width: 35%;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+}
+
+.center h1{
+    position: absolute;
+    top: -10%;
+    font-size: 5rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.photo{
+    height: 100%;
+    width: 100%;
+    border-radius: 1000px 1000px 0 0;
+    background-image: url(https://i.pinimg.com/474x/8c/41/92/8c419249dcc222aadb3ebd973951f637--dinghy-fushia.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
